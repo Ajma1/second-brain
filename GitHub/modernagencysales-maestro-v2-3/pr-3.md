@@ -6,13 +6,13 @@ url: https://github.com/modernagencysales/maestro-v2-3/pull/3
 title: "feat: add LinkedIn public profile fallback"
 repo: modernagencysales/maestro-v2-3
 number: 3
-state: open
+state: closed
 author: Ajma1
 ---
 
 # feat: add LinkedIn public profile fallback
 
-PR #3 in modernagencysales/maestro-v2-3 — open — by Ajma1 — [https://github.com/modernagencysales/maestro-v2-3/pull/3](https://github.com/modernagencysales/maestro-v2-3/pull/3)
+PR #3 in modernagencysales/maestro-v2-3 — closed — by Ajma1 — [https://github.com/modernagencysales/maestro-v2-3/pull/3](https://github.com/modernagencysales/maestro-v2-3/pull/3)
 
 ## Summary
 - add an action-only Apify-shaped public LinkedIn profile fallback for Harvest zero-post imports
