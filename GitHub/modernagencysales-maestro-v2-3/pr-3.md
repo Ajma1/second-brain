@@ -31,3 +31,17 @@ PR #3 in modernagencysales/maestro-v2-3 — open — by Ajma1 — [https://githu
 ## Remaining live proof
 - configure `APIFY_API_TOKEN` in Convex or provide a real LinkedIn export ZIP
 - rerun import against a real 50+ authored-post profile/account
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+## Release Notes
+
+* **New Features**
+  * Added automatic fallback mechanism for LinkedIn history import: when the primary history source returns no posts, the system now attempts to retrieve data from a public profile source.
+
+* **Improvements**
+  * Enhanced reliability of LinkedIn data import with improved error handling and fallback support.
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
