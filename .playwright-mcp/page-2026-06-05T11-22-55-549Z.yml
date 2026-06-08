@@ -1,0 +1,8 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - heading "Hermes" [level=1] [ref=e4]
+      - paragraph [ref=e5]: Your CTO. Enter passphrase.
+      - textbox "Passphrase" [active] [ref=e6]
+      - button "Enter" [disabled] [ref=e7]
+  - alert [ref=e8]
