@@ -8,3 +8,13 @@
 
 # Obsidian trash
 .trash/
+
+# Dev / scratch artifacts — must never be ingested by brain-sync (git add -A)
+.playwright-mcp/
+/*.png
+*.log
+
+# Secrets — never let the unattended automation commit these
+.env
+.env.*
+**/secrets/*

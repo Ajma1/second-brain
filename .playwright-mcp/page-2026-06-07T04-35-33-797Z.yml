@@ -1,7 +1,0 @@
-- generic [active] [ref=e1]:
-  - main [ref=e2]:
-    - generic [ref=e3]:
-      - img [ref=e5]
-      - heading "Business Brain" [level=1] [ref=e7]
-      - paragraph [ref=e8]: Sign in to your team's shared memory.
-  - alert [ref=e9]
