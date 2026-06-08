@@ -54,3 +54,5 @@ confidence: high
 
 ## Mentions
 - 2026-06-08 via slack — check out this competitor
+
+- 2026-06-08 via discord — shared again
