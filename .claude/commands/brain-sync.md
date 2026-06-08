@@ -72,8 +72,9 @@ tags: [linear, "#project/maestro-v2"]
 
 1. Read `since` from `_meta/state/github.json`; use its date portion `YYYY-MM-DD` as `<since-date>`.
 2. For each `repo` in sources.json `github.repos`:
-   - PRs: `gh pr list --repo <repo> --state all --search "updated:>=<since-date>" --json number,title,state,author,updatedAt,createdAt,url,body --limit 100`
-   - Issues: `gh issue list --repo <repo> --state all --search "updated:>=<since-date>" --json number,title,state,author,updatedAt,createdAt,url,body --limit 100`
+   - PRs: `gh pr list --repo <repo> --state all --search "updated:>=<since-date>" --json number,title,state,author,updatedAt,createdAt,url,body --limit 300`
+   - Issues: `gh issue list --repo <repo> --state all --search "updated:>=<since-date>" --json number,title,state,author,updatedAt,createdAt,url,body --limit 300`
+   - **No silent caps:** if either list returns exactly the limit (300), the day may have more than one page — append `github: hit page limit on <repo>` to the run-log status notes (section 7.2) so the truncation is visible rather than silently dropping items.
    - Folder = `GitHub/<owner>-<repo>` (e.g. `modernagencysales/maestro-v2` → `GitHub/modernagencysales-maestro-v2`).
    - PR → `<folder>/pr-<number>.md`; issue → `<folder>/issue-<number>.md`. If file exists → skip. Else write:
 

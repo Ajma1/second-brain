@@ -116,8 +116,8 @@ Slack failure visible. Read it to audit the automation's health over time.
 
 | Source | Mode | Fetch | Writes | Watermark |
 |--------|------|-------|--------|-----------|
-| Linear | 1:1 mirror | MCP `list_issues`, `createdAt > wm`, team-scoped | `Linear/MAE-#.md` | max `createdAt` |
-| GitHub | 1:1 mirror | `gh` per repo, PRs+issues `updatedAt > wm`; gist watch-list | `GitHub/<repo>/{pr,issue}-#.md`; gists → `03-Resources/` | per-repo `updatedAt` |
+| Linear | 1:1 mirror | MCP `list_issues`, `updatedAt >= wm`, team-scoped | `Linear/MAE-#.md` | max `updatedAt` |
+| GitHub | 1:1 mirror | `gh` per repo, PRs+issues `updated:>= wm-date`; gist watch-list | `GitHub/<repo>/{pr,issue}-#.md`; gists → `03-Resources/` | single global `updatedAt` (day-granularity search; idempotent file-guard absorbs re-fetch) |
 | Slack | digest-first | Web API `conversations.history` since last `ts` per channel | key threads → daily digest; notable threads → standalone note + `#followup` | per-channel `ts` |
 
 Slack is digest-first by design: mirroring every message as a note is noise. The
