@@ -20,3 +20,5 @@ confidence: high
 
 ## Mentions
 - 2026-06-08 via slack — vid b
+
+- 2026-06-08 via slack — vid b
