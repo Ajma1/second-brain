@@ -65,3 +65,36 @@ Per `docs/deployment-env.md`: set `CLERK_JWT_ISSUER_DOMAIN`, `LINKEDIN_OAUTH_STA
 4. Convert `schema*` source-grep tests to schema-introspection.
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+* **New Features**
+  - Added Brain workspace for storing and searching knowledge entries
+  - Added Email Sequences builder for creating and managing automated email campaigns
+  - Added Lead Magnets tool (quizzes and calculators) for lead generation
+  - Added workspace navigation pages: Calendar, Clients, Learn, Method, and Today
+  - Enhanced Analytics dashboard with improved data visualization and attribution tracking
+  - Improved LinkedIn OAuth integration with enhanced security verification
+
+* **Improvements**
+  - Refactored Co-Pilot Home with action cards and activity management
+  - Enhanced Data overview surface with comprehensive record visualization
+  - Improved onboarding experience with refined voice interview flow
+  - Better error handling and user feedback across features
+  - Added motion/animation helpers respecting user accessibility preferences
+
+* **Documentation**
+  - Added repository guidelines and best practices
+  - Enhanced environment variable configuration guidance
+  - Added PR checklist template for consistent submissions
+
+* **Chores**
+  - Updated CI/CD pipelines with additional code quality checks
+  - Added automated dependency management
+  - Enhanced test coverage with E2E smoke tests and visual regression baselines
+  - Improved code quality tooling with Semgrep and security scanning
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
