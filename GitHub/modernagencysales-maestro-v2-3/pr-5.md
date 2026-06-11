@@ -48,3 +48,18 @@ Both apps lacked an `app/icon.svg` (only web had one), logging a `/favicon.ico` 
 - **Pre-existing smell (left as-is):** when `NEXT_PUBLIC_CONVEX_URL` is unset, each app's `lib/convex-url.ts` falls back to a hardcoded `beaming-canary-625.convex.cloud`. Worth replacing with a fail-fast, but risky to change blind in this pass.
 
 🤖 Generated with [Claude Code](https://claude.com/claude-code)
+
+<!-- This is an auto-generated comment: release notes by coderabbit.ai -->
+
+## Summary by CodeRabbit
+
+## Release Notes
+
+* **New Features**
+  * Added demo mode support for local development and testing, allowing workspace and data access without Clerk authentication
+
+* **Security & Access Control**
+  * Implemented access validation for user-scoped data operations to prevent unauthorized access
+  * Transitioned sensitive endpoints to internal access only, restricting to authorized callers
+
+<!-- end of auto-generated comment: release notes by coderabbit.ai -->
