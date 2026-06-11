@@ -6,13 +6,13 @@ url: https://github.com/modernagencysales/maestro-v2-3/pull/5
 title: "QA hardening: close cross-tenant data leaks + fix demo-mode crashes"
 repo: modernagencysales/maestro-v2-3
 number: 5
-state: open
+state: closed
 author: Ajma1
 ---
 
 # QA hardening: close cross-tenant data leaks + fix demo-mode crashes
 
-PR #5 in modernagencysales/maestro-v2-3 — open — by Ajma1 — [https://github.com/modernagencysales/maestro-v2-3/pull/5](https://github.com/modernagencysales/maestro-v2-3/pull/5)
+PR #5 in modernagencysales/maestro-v2-3 — closed — by Ajma1 — [https://github.com/modernagencysales/maestro-v2-3/pull/5](https://github.com/modernagencysales/maestro-v2-3/pull/5)
 
 ## Summary
 
