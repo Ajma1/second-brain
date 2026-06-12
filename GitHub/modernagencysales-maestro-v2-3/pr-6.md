@@ -6,13 +6,13 @@ url: https://github.com/modernagencysales/maestro-v2-3/pull/6
 title: "QA round 2: stop auth-gated post pages crashing in demo mode + boundary safety net"
 repo: modernagencysales/maestro-v2-3
 number: 6
-state: open
+state: closed
 author: Ajma1
 ---
 
 # QA round 2: stop auth-gated post pages crashing in demo mode + boundary safety net
 
-PR #6 in modernagencysales/maestro-v2-3 — open — by Ajma1 — [https://github.com/modernagencysales/maestro-v2-3/pull/6](https://github.com/modernagencysales/maestro-v2-3/pull/6)
+PR #6 in modernagencysales/maestro-v2-3 — closed — by Ajma1 — [https://github.com/modernagencysales/maestro-v2-3/pull/6](https://github.com/modernagencysales/maestro-v2-3/pull/6)
 
 ## Summary
 
