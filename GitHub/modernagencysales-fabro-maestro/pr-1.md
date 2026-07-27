@@ -7,12 +7,12 @@ title: "Formalize Railway CLI backend hardening"
 repo: modernagencysales/fabro-maestro
 number: 1
 state: open
-author: kimprobably
+author: timkeeeeeen
 ---
 
 # Formalize Railway CLI backend hardening
 
-PR #1 in modernagencysales/fabro-maestro — open — by kimprobably — [https://github.com/modernagencysales/fabro-maestro/pull/1](https://github.com/modernagencysales/fabro-maestro/pull/1)
+PR #1 in modernagencysales/fabro-maestro — open — by timkeeeeeen — [https://github.com/modernagencysales/fabro-maestro/pull/1](https://github.com/modernagencysales/fabro-maestro/pull/1)
 
 ## Summary
 - formalizes CLI backend execution as an explicit external-sandbox runtime policy while preserving Railway-compatible defaults
