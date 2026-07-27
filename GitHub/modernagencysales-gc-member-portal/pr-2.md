@@ -7,12 +7,12 @@ title: "MOD-13: Analyze codebase and clean up ESLint warnings"
 repo: modernagencysales/gc-member-portal
 number: 2
 state: closed
-author: kimprobably
+author: timkeeeeeen
 ---
 
 # MOD-13: Analyze codebase and clean up ESLint warnings
 
-PR #2 in modernagencysales/gc-member-portal — closed — by kimprobably — [https://github.com/modernagencysales/gc-member-portal/pull/2](https://github.com/modernagencysales/gc-member-portal/pull/2)
+PR #2 in modernagencysales/gc-member-portal — closed — by timkeeeeeen — [https://github.com/modernagencysales/gc-member-portal/pull/2](https://github.com/modernagencysales/gc-member-portal/pull/2)
 
 ## Summary
 
