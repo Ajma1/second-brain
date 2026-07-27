@@ -7,12 +7,12 @@ title: "Add factory eval schemas and tighten planner/quick validation"
 repo: modernagencysales/fabro-maestro
 number: 2
 state: closed
-author: kimprobably
+author: timkeeeeeen
 ---
 
 # Add factory eval schemas and tighten planner/quick validation
 
-PR #2 in modernagencysales/fabro-maestro — closed — by kimprobably — [https://github.com/modernagencysales/fabro-maestro/pull/2](https://github.com/modernagencysales/fabro-maestro/pull/2)
+PR #2 in modernagencysales/fabro-maestro — closed — by timkeeeeeen — [https://github.com/modernagencysales/fabro-maestro/pull/2](https://github.com/modernagencysales/fabro-maestro/pull/2)
 
 This improves factory measurability by adding missing eval contracts and making preflight validation enforce them. It also makes the planner output structurally checkable and removes a misleading machine-local workflow path.
 
