@@ -7,12 +7,12 @@ title: "feat: Add bulk edit functionality for AI tools"
 repo: modernagencysales/gc-member-portal
 number: 1
 state: closed
-author: kimprobably
+author: timkeeeeeen
 ---
 
 # feat: Add bulk edit functionality for AI tools
 
-PR #1 in modernagencysales/gc-member-portal — closed — by kimprobably — [https://github.com/modernagencysales/gc-member-portal/pull/1](https://github.com/modernagencysales/gc-member-portal/pull/1)
+PR #1 in modernagencysales/gc-member-portal — closed — by timkeeeeeen — [https://github.com/modernagencysales/gc-member-portal/pull/1](https://github.com/modernagencysales/gc-member-portal/pull/1)
 
 ## Summary
 
